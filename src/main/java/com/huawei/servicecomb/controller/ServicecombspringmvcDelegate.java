@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-public class MydemoDelegate {
+public class ServicecombspringmvcDelegate {
 
     public String helloworld(String name){
 

@@ -6,9 +6,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestMydemo {
+public class TestServicecombspringmvc {
 
-        MydemoDelegate mydemoDelegate = new MydemoDelegate();
+        ServicecombspringmvcDelegate ServicecombspringmvcDelegate = new ServicecombspringmvcDelegate();
 
 
     @Test
@@ -16,7 +16,7 @@ public class TestMydemo {
 
         String expactReturnValue = "Welcome hello"; // You should put the expect String type value here.
 
-        String returnValue = mydemoDelegate.helloworld("hello");
+        String returnValue = ServicecombspringmvcDelegate.helloworld("hello");
 
         assertEquals(expactReturnValue, returnValue);
     }
